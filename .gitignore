@@ -1,0 +1,19 @@
+# Build files
+cache
+out*
+typechain
+dist
+
+# Ignores development broadcast logs
+/broadcast/**/run-166*.json
+
+# Node
+
+node_modules
+.env
+
+# Code coverage artifacts
+lcov.info
+/coverage/*
+
+.DS_Store
